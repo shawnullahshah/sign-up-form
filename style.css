@@ -68,10 +68,29 @@ form {
     gap: 30px;
     margin-left: 40px;
     width: 600px;
+    height: 30%;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 form label {
     display: flex;
     flex-direction: column;
+}
+
+.sign-up-container {
+    background-color: rgb(128,128,128,5%);
+    height: calc(100vh - 35% - 30% - 30px);
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-container > * {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+button {
+    align-self: flex-start;
+    padding: 5px 20px; 
 }
