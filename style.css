@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Greek-Freak';
+    src: url(/home/shawnullah/repos/sign-up-form/fonts/Greek-Freak.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body-container {
+    display: flex;
+}
+
+#background-image-container {
+    background-image: url(/home/shawnullah/repos/sign-up-form/images/BG3_Adamantine_Forge__2_.0.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex: 1;
+    height: 100vh;
+}
+
+#side-image-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Greek-Freak';
+    font-size: 4rem;
+    background-color: rgb(0,0,0,50%);
+    height: 20%;
+    margin-top: 20%;
+}
+
+#form-container {
+    flex: 1.5;
+}
+
+.form.header {
+    height: 35%;
+    background-color: rgb(128,128,128,5%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form.header h3 {
+    width: 600px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+.form.formfield h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-left: 40px;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+}
