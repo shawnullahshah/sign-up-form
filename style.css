@@ -3,6 +3,14 @@
     src: url(/home/shawnullah/repos/sign-up-form/fonts/Greek-Freak.ttf);
 }
 
+input:focus {
+    background-color: rgb(191, 222, 243);
+}
+
+a {
+    color: gray;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -92,5 +100,9 @@ form label {
 
 button {
     align-self: flex-start;
-    padding: 5px 20px; 
+    padding: 5px 20px;
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,25%); 
 }
